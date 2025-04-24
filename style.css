@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #dcf2ff;
+
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 90px;
+}
+
+.Header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 70px;
+    color: rgb(0, 0, 0,0.7);
+}
+
+
+.Hero {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin:150px 30px;
+    gap: 20px;
+    
+}
+
+.fa-brands{
+    color: rgb(131,148,196,0.9);
+    font-size: 25px;
+}
+
+.Hero .Content{
+    font-size: 20px;
+    width: 2200px;
+    margin-top:140px ;
+    margin-bottom:200px ;
+    margin-right: 750px;
+}
+
+.Content h1{
+    width: 500px;
+    color: black;
+    margin-bottom: 13px;
+}
+
+.Content h2{
+    color: #7439fd;
+    margin-bottom: 8px;
+}
+
+.Content p{
+    color: black;
+    width: 300px;
+}
+
+.Content button{
+    background-color: #7439fd;
+    color: white;
+    margin-top: 40px;
+    padding: 15px;
+    border: none;
+    border-radius: 9px;
+}
+
+.img img{
+    background-color: #7439fd;
+    border-radius:50% 20px 300px 90px;
+    width: 450px;
+    margin-top: 40px;
+    margin-left: -620px;
+
+}
+
+.About {
+    text-align: center;
+    font-size: 40px;
+    margin: 50px 20px;
+    
+}
+
+.About p{
+    font-size: 21px;
+}
+
+.About h1{
+    color: #7439fd;
+    text-decoration: underline;
+}
+
+.A-info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+.A-info img{
+    width: 290px;
+    border-radius: 50% 20px 300px 90px;
+}
+
+.A-Text{
+    margin-top: 100px;
+    width: 500px;
+}
+
+.A-Text h4{
+    color: #7439fd;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.A-Text button{
+    background-color: #7439fd;
+    color: white;
+    margin-top: 40px;
+    padding: 15px;
+    border: none;
+    border-radius: 9px;
+}
+
+.Experience h1{
+text-align: center;
+color: #7439fd;
+font-size: 50px;
+text-decoration: underline;
+    
+}
+
+
+.S-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 80px 75px;
+
+}
+
+.S-cards img{
+    width: 150px;
+    padding: 10px 60px;
+
+}
+
+.S-cards p{
+    margin-top: 10px;
+    width: 300px;
+}
+
+.Card1{
+    border: 2px solid #7439fd;
+    background-color: #7439fd;
+    padding: 20px 20px;
+    border-radius: 14px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.Card1 h3{
+    font-size: 29px;
+}
+
+
+.footer{
+    background-color: #7439fd;
+    padding-bottom: 130px;
+}
+
+.footer h1{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.footer p{
+    text-align: center;
+    color: white;
+
+}
+
+.F-info h1{
+    
+    text-align: left;
+}
+
+.F-info{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.F-info i{
+    color: white;
+    border: 3px solid;
+    border-radius: 50%;
+    padding: 7px 7px;
+    margin-right: 10px;
+}
+
+.F-contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.F-form input{
+    height: 40px;
+    width: 300px;
+
+}
+
+.F-form{
+    margin-right: 250px;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.F-form textarea{
+    height: 90px;
+    width: 300px;
+}
+
+.F-form button{
+    border: 2px solid ;
+    border-radius: 4px;
+    color: white;
+    background-color: #7439fd;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+}
