@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.active{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    color: red;
+}
+
+button{
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+    background-color: #7f1d1d;
+    color: white;
+}

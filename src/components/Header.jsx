@@ -38,7 +38,7 @@ function Header() {
             {/* Mobile View */}
             <div style={{
                 display: isOpne === true ? "block" : ""
-            }} className="hidden  items-center space-x-4 bg-gray-900 text-white -mt-[0.5px] p-2 text-2xl">
+            }} className="hidden  items-center space-x-4 bg-gray-900 text-white -mt-[0.5px] p-4 text-2xl">
                 <ul className="flex flex-col gap-10 items-center">
                     <NavLink to="/"> <li>Home</li> </NavLink>
                     <NavLink to="/about"> <li>About</li> </NavLink>
